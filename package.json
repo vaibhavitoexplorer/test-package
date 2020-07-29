@@ -1,6 +1,6 @@
 {
   "name": "openapi-typescript-node-sku1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/api.js",
   "types": "lib/api.d.ts",
@@ -41,5 +41,8 @@
     "tslint": "^5.13.1",
     "typescript": "^3.3.3333"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaibhavitoexplorer/test-package.git"
+    }
 }

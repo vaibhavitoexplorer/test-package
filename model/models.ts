@@ -1,19 +1,31 @@
+export * from './address';
+export * from './digitalTaxRequest';
 export * from './errors';
 export * from './inlineResponse200';
 export * from './modelError';
+export * from './physicalTaxRequest';
+export * from './sellingEntity';
 export * from './sku';
 export * from './skuRequest';
 export * from './skuUpsertRequest';
+export * from './taxRate';
+export * from './taxResponse';
 export * from './updateSkuRequest';
 
 import localVarRequest = require('request');
 
+import { Address } from './address';
+import { DigitalTaxRequest } from './digitalTaxRequest';
 import { Errors } from './errors';
 import { InlineResponse200 } from './inlineResponse200';
 import { ModelError } from './modelError';
+import { PhysicalTaxRequest } from './physicalTaxRequest';
+import { SellingEntity } from './sellingEntity';
 import { Sku } from './sku';
 import { SkuRequest } from './skuRequest';
 import { SkuUpsertRequest } from './skuUpsertRequest';
+import { TaxRate } from './taxRate';
+import { TaxResponse } from './taxResponse';
 import { UpdateSkuRequest } from './updateSkuRequest';
 
 /* tslint:disable:no-unused-variable */
@@ -37,12 +49,18 @@ let enumsMap: {[index: string]: any} = {
 }
 
 let typeMap: {[index: string]: any} = {
+    "Address": Address,
+    "DigitalTaxRequest": DigitalTaxRequest,
     "Errors": Errors,
     "InlineResponse200": InlineResponse200,
     "ModelError": ModelError,
+    "PhysicalTaxRequest": PhysicalTaxRequest,
+    "SellingEntity": SellingEntity,
     "Sku": Sku,
     "SkuRequest": SkuRequest,
     "SkuUpsertRequest": SkuUpsertRequest,
+    "TaxRate": TaxRate,
+    "TaxResponse": TaxResponse,
     "UpdateSkuRequest": UpdateSkuRequest,
 }
 

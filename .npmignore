@@ -1,5 +1,5 @@
-api
-model
+./api
+./model
 api.ts
 tsconfig.json
 tslint.json
